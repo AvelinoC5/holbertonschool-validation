@@ -8,7 +8,7 @@ on:
 jobs:
   Execute-make-commands:
     name: Execute make commands
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: sudo module3_task1/setup.sh
